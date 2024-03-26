@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -28,7 +28,7 @@ export default function page() {
           </label>
           <div class="relative mb-5">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5">
-              <Image src="user.svg" alt="" width={18} height={18}/>
+              <Image src="user.svg" alt="" width={18} height={18} />
             </div>
             <input
               type="text"
@@ -45,7 +45,7 @@ export default function page() {
           </label>
           <div class="relative">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5">
-              <Image src="user.svg" alt="" width={18} height={18}/>
+              <Image src="user.svg" alt="" width={18} height={18} />
             </div>
             <input
               type="password"
@@ -65,7 +65,13 @@ export default function page() {
           </label>
           <div class="relative mb-5">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5">
-              <Image src="email.svg" alt="" width={18} height={18} className="rounded"/>
+              <Image
+                src="email.svg"
+                alt=""
+                width={18}
+                height={18}
+                className="rounded"
+              />
             </div>
             <input
               type="text"
@@ -82,7 +88,7 @@ export default function page() {
           </label>
           <div class="relative">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5">
-              <Image src="password.svg" alt="" width={18} height={18}/>
+              <Image src="password.svg" alt="" width={18} height={18} />
             </div>
             <input
               type="password"
@@ -93,11 +99,17 @@ export default function page() {
           </div>
         </div>
         <div>
-          {/* <button className="px-10 py-2 bg-yellow-300 text-gray-900 font-bold rounded-lg inline-block sm:shadow-2xl sm:shadow-gray-900/50">Crear Cuenta</button> */}
-          <button class="rounded-md bg-yellow-300 px-5 py-2.5 text-gray-900 font-bold transition-all duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:-translate-y-1 active:scale-x-90 active:scale-y-110">Crear Cuenta</button>
+          <button class="rounded-md bg-yellow-300 px-5 py-2.5 text-gray-900 font-bold transition-all duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:-translate-y-1 active:scale-x-90 active:scale-y-110">
+            Crear Cuenta
+          </button>
         </div>
         <div>
-        <span>¿Ya tienes una cuenta? <Link href="/login" className="font-bold">Iniciar Sesión</Link></span>
+          <span>
+            ¿Ya tienes una cuenta?{" "}
+            <Link href="/login" className="font-bold">
+              Iniciar Sesión
+            </Link>
+          </span>
         </div>
       </div>
     </main>
