@@ -1,6 +1,6 @@
 import Experiencia from "@/components/Experiencia";
 import Footer from "@/components/Footer";
-import Main from "@/components/Main";
+import Intro from "@/components/Intro";
 import Navbar from "@/components/Navbar";
 import Nosotros from "@/components/Nosotros";
 import Servicios from "@/components/Servicios";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="">
       <Navbar />
-      <Main />
+      <Intro />
       <Servicios />
       <Nosotros />
       <Experiencia />

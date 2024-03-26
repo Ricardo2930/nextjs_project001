@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Main() {
+export default function Intro() {
   return (
     <section className="grid text-center p-4 gap-5 text-gray-900 sm:flex sm:text-start sm:p-14 sm:items-center sm:text-picton-blue-200">
       <div className="grid gap-10">
