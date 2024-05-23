@@ -22,7 +22,7 @@ export default function Nosotros() {
       <h3 className="text-4xl md:text-5xl 2xl:text-6xl text-gray-600 border-b-8 border-yellow-300 inline-block">
         para ti
       </h3>
-      <p className="text-pretty md:text-lg xl:text-xl tracking-wide text-gray-500 lg:m-8 2xl:mx-24">
+      <p className="text-pretty md:text-lg xl:text-xl tracking-wide text-gray-500 my-5 md:m-8 2xl:mx-24">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima rem
         possimus molestiae dolor, non eius repellendus voluptatibus tenetur
         dignissimos doloremque ullam illo distinctio, natus voluptate rerum.
