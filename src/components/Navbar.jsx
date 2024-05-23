@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function navbar() {
   return (
-    <header className="grid bg-gray-900 px-1 py-4 sm:p-10 z-1">
+    <header className="grid bg-gray-900 px-1 py-4 sm:p-10 sticky top-0">
       <div className="flex sm:justify-between sm:gap-3 items-center text-center">
         <Image
           src="/next.svg"
@@ -19,7 +19,7 @@ export default function navbar() {
           >
             <span class="absolute h-0 w-0 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-56 group-hover:w-full"></span>
             <Link
-              href="/sign-in"
+              href="/login"
               class="relative border-b-2 border-gray-100 text-md sm:text-lg"
             >
               Iniciar Sesión
@@ -28,7 +28,7 @@ export default function navbar() {
           <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-gray-900 px-4 sm:px-6 font-semibold text-gray-200">
             <span class="absolute h-0 w-0 rounded-full bg-green-600 transition-all duration-300 group-hover:h-56 group-hover:w-full"></span>
             <Link
-              href="/sign-up"
+              href="/login"
               class="relative border-b-2 border-gray-100 text-md text-center sm:text-lg"
             >
               Registrate
