@@ -19,7 +19,7 @@ export default function navbar() {
           >
             <span class="absolute h-0 w-0 rounded-full bg-blue-600 transition-all duration-300 group-hover:h-56 group-hover:w-full"></span>
             <Link
-              href="/login"
+              href="/sign-in"
               class="relative border-b-2 border-gray-100 text-md sm:text-lg"
             >
               Iniciar Sesión
@@ -28,7 +28,7 @@ export default function navbar() {
           <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-gray-900 px-4 sm:px-6 font-semibold text-gray-200">
             <span class="absolute h-0 w-0 rounded-full bg-green-600 transition-all duration-300 group-hover:h-56 group-hover:w-full"></span>
             <Link
-              href="/login"
+              href="/sign-up"
               class="relative border-b-2 border-gray-100 text-md text-center sm:text-lg"
             >
               Registrate

@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-black text-gray-400 text-center p-4">
-      <div className="sm:py-5 sm:flex sm:text-start sm:items-center">
-        <div>
+      <div className="sm:p-5 sm:px-10 sm:grid grid-cols-2 md:text-start items-center">
+        <div className="md:flex md:justify-center">
           <Image
             src="/logo_footer.jpg"
             alt=""
@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         <div>
           <h3 className="text-4xl sm:text-5xl font-bold">REPARTIDEV</h3>
-          <p className="text-pretty py-7 px-4 sm:w-1/2">
+          <p className="text-pretty py-7">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
             est mollitia voluptate qui incidunt nihil reiciendis. Necessitatibus
             inventore voluptatum aliquid quae, quaerat debitis ratione eaque
@@ -33,8 +33,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <span className="text-gray-400">Copyright© 2024 Repartidev-</span>
-      <span className="text-gray-400">Hecho con el ❤️</span>
+      <span className="text-gray-400 text-sm font-medium sm:text-base">Copyright© 2024 Repartidev - Hecho con el ❤️</span>
     </footer>
   );
 }
