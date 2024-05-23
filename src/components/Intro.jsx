@@ -2,25 +2,26 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <section className="grid text-center p-4 gap-5 text-gray-900 sm:flex sm:text-start sm:p-14 sm:items-center sm:text-picton-blue-200">
+<section className="grid items-center text-center p-5 py-10 gap-5 lg:grid-cols-2">
       <div className="grid gap-10">
         <div>
-          <h1 className="text-6xl font-extrabold sm:text-9xl">Te ayudamos</h1>
-          <h2 className="text-4xl py-5 font-semibold text-gray-700 sm:text-7xl">
+          <h1 className="text-5xl sm:text-6xl text-gray-800 font-extrabold md:text-7xl 2xl:text-9xl bg-yellow-300 p-3 inline-block">
+            Te ayudamos
+          </h1>
+          <h2 className="text-4xl py-5 font-semibold text-gray-700 md:text-5xl 2xl:text-7xl">
             a tener en tus manos
           </h2>
-          <h3 className="text-4xl border-b-8 border-yellow-300 inline-block text-gray-600 sm:text-7xl">
+          <h3 className="text-4xl border-b-8 border-yellow-300 inline-block text-gray-500 md:text-5xl 2xl:text-7xl">
             tus pedidos
           </h3>
         </div>
-        <p className="text-pretty sm:text-xl sm:tracking-wide">
+        <p className="text-pretty md:text-lg xl:text-xl tracking-wide text-gray-500 lg:mx-8 2xl:mx-16">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima rem
           possimus molestiae dolor, non eius repellendus voluptatibus tenetur
           dignissimos doloremque ullam illo distinctio, natus voluptate rerum.
-          Commodi blanditiis vel a.
         </p>
         <div>
-          <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-yellow-300 px-6 font-bold text-gray-900 shadow-2xl shadow-gray-900/50">
+          <button class="group inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-yellow-300 px-6 font-bold text-gray-900 shadow-2xl shadow-gray-900/50">
             <div class="mr-0 w-0 -translate-x-[100%] opacity-0 transition-all duration-200 group-hover:mr-1 group-hover:w-5 group-hover:translate-x-0 group-hover:opacity-100">
               <svg
                 width="15"
@@ -49,7 +50,7 @@ export default function Intro() {
           alt=""
           width={3600}
           height={3600}
-          className="w-auto sm:rounded-l-full sm:shadow-2xl sm:shadow-gray-900/50"
+          className="w-auto lg:rounded-l-full shadow-2xl shadow-gray-900/50"
         />
       </div>
     </section>
