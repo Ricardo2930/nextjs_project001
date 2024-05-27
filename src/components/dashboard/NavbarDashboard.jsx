@@ -22,22 +22,22 @@ export default function NavbarDashboard({ links, isCollapsed }) {
             <p className="text-xs text-gray-500">midudev@gmail.com</p>
           </div>
         </div>
-        <nav className="grid grid-cols-2 gap-5 sm:gap-x-12 sm:gap-y-6 sm:grid sm:grid-cols-1 sm:gap-5 mt-5 sm:mt-5 px-1">
+        <nav className="grid grid-cols-3 gap-2 sm:gap-x-12 sm:gap-y-6 sm:grid sm:grid-cols-1 sm:gap-5 mt-5 sm:mt-5 px-1">
           {links.map((link, index) => (
             <Link
               key={index}
               href={link.href}
-              className={cn(
+              className={cn("p-2 flex flex-col sm:flex sm:flex-row",
                 buttonVariants({
                   variant: link.href === pathname ? "default" : "ghost",
-                  size: "sm",
+                  size: "xl",
                 }),
                 link.variant === "default" &&
                   "dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white",
                 "justify-start"
               )}
             >
-              <link.icon className="mr-2 h-4 w-4" />
+              <link.icon className="sm:mr-2 sm:size-4" />
               {link.title}
               {link.label && (
                 <span
