@@ -9,22 +9,17 @@ import {Mails,ShoppingCart,Users2,LayoutDashboard, ChevronRight,} from "lucide-r
 
 export default function NavbarLayout() {
 
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  // const [isCollapsed, setIsCollapsed] = useState(false);
 
-  function toggleSidebar () {
-    setIsCollapsed(!isCollapsed)
-  }
+  // function toggleSidebar () {
+  //   setIsCollapsed(!isCollapsed)
+  // }
 
   return (
-    <div className="flex justify-between sm:h-screen">
-      <div className="relative sm:min-w-[80px] border-r px-3 pb-5 sm:pb-10 sm:pt-24 bg-gray-400">
-      <div className="absolute right-2 top-2 sm:right-[-20px] sm:top-7">
-        {/* <Button variant="secondary" className="rounded-full p-2" onClick={toggleSidebar}>
-          <ChevronRight/>
-        </Button> */}
-      </div>
+    <div className="sm:flex sm:justify-between sm:h-screen">
+      <div className="sm:min-w-[80px] border-r px-3 pb-5 sm:pb-10 sm:pt-4 bg-gray-200">
       <NavbarDashboard links={[
-            // isCollapsed={isCollapsed}
+            // isCollapsed={isCollapsed},
               {
                 title: "Dashboard",
                 label: "",

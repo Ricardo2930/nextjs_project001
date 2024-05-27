@@ -3,8 +3,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className='p-8'>
-      <h1>HOME PAGE</h1>
+    <div className='p-2 sm:p-4 w-full'>
       <DashboardPage/>
     </div>
   )
