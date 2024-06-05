@@ -1,5 +1,7 @@
 import React from 'react'
 import Cards from "@/components/dashboard/Cards";
+import DataTableUsers from "@/components/dashboard/DataTableUsers";
+
 
 
 export default function DashboardPage() {
@@ -10,6 +12,7 @@ export default function DashboardPage() {
           <button className='bg-blue-100 text-blue-500 font-semibold py-2 px-5 rounded-xl'>Search</button>
         </div>
         <Cards/>
+        <DataTableUsers/>
     </div>
   )
 }

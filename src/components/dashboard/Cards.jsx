@@ -3,7 +3,7 @@ import { UserCheck, ShoppingCart, Users, Hotel } from "lucide-react"
 
 export default function Cards() {
   return (
-    <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-7 text-center">
+    <section className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-7 text-center">
 
       <div className="bg-blue-100 text-blue-500 border-2 border-blue-500 rounded-xl p-5 grid gap-2">
         <UserCheck className=""/>

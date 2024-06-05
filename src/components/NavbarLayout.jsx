@@ -1,10 +1,10 @@
 "use client"
 
 import NavbarDashboard from "@/components/dashboard/NavbarDashboard";
-import { Button } from "@/components/ui/button";
-import { useState } from 'react';
+// import { Button } from "@/components/ui/button";
+// import { useState } from 'react';
 
-import {Mails,ShoppingCart,Users2,LayoutDashboard, ChevronRight,} from "lucide-react"
+import {ShoppingCart,Users2,LayoutDashboard} from "lucide-react"
 
 
 export default function NavbarLayout() {
@@ -16,8 +16,8 @@ export default function NavbarLayout() {
   // }
 
   return (
-    <div className="sm:flex sm:justify-between sm:h-screen">
-      <div className="sm:min-w-[80px] border-r px-3 pb-5 sm:pb-10 sm:pt-4 bg-gray-200">
+    <div className="sm:flex sm:justify-between sm:h-auto">
+      <div className="min-w-full lg:min-w-[80px] border-r px-3 pb-5 lg:pb-10 sm:pt-4 bg-gray-200">
       <NavbarDashboard links={[
             // isCollapsed={isCollapsed},
               {
