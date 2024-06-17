@@ -41,13 +41,6 @@ export default function NavbarLayout() {
                 variant: "ghost",
                 href: "/dashboard/users"
               },
-              // {
-              //   title: "Contacto",
-              //   label: "",
-              //   icon:Mails,
-              //   variant: "ghost",
-              //   href: "/dashboard/contacto"
-              // },
             ]}/>
       </div>
     </div>
