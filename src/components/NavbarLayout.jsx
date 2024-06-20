@@ -16,7 +16,7 @@ export default function NavbarLayout() {
   // }
 
   return (
-    <div className="sm:flex sm:justify-between sm:h-auto">
+    <div className="sm:flex sm:justify-between sm:max-h-full">
       <div className="min-w-full lg:min-w-[80px] border-r px-3 pb-5 lg:pb-10 sm:pt-4 bg-gray-200">
       <NavbarDashboard links={[
             // isCollapsed={isCollapsed},

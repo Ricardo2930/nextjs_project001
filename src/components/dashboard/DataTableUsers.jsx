@@ -18,12 +18,12 @@ export default async function Tables() {
     <section className="flex flex-col xl:grid grid-cols-4 gap-5">
             <div className="bg-white rounded-xl xl:col-span-3">
                 <div className="sm:items-center sm:justify-between p-5 border-2 border-gray-100 rounded-xl">
-                    <h2 className="text-xl font-bold text-orange-500 bg-orange-100 inline-block py-1 px-5 rounded-md">Users</h2>
+                    <h2 className="text-xl font-bold text-gray-500 bg-gray-100 inline-block py-1 px-5 rounded-md">Ordenes</h2>
                     <DataTable columns={columns} data={datas} />
                 </div>
             </div>
             <div className='p-5 border-2 border-gray-100 rounded-xl'>
-              <h2 className="text-xl font-bold text-orange-500 bg-orange-100 inline-block py-1 mb-5 px-5 rounded-md">Users</h2>
+              <h2 className="text-xl font-bold text-orange-500 bg-orange-100 inline-block py-1 mb-5 px-5 rounded-md">Repartidevs</h2>
               <AvatarUsers/>  
               
         </div>
