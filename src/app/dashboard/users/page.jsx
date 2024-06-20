@@ -1,6 +1,7 @@
 import { columns } from "./columns"
 import { DataTable } from "../../../components/ui/data-table"
 import { ShieldCheck, ShoppingCart, Users } from "lucide-react"
+import AvatarRepartidevs from "@/components/dashboard/AvatarsRepartidevs"
 
 async function getData(){
   // Fetch data from your API here.
@@ -17,6 +18,7 @@ export default async function DemoPage() {
     <section className="container max-w-full flex flex-col gap-5 lg:grid 2xl:grid-cols-7 p-5">
       <div className=" rounded-xl lg:grid 2xl:col-span-6">
         <h2 className="text-3xl font-semibold text-orange-500 bg-orange-100 p-2 rounded-xl text-center mt-1">Repartidevs</h2>
+        <AvatarRepartidevs/>
         <DataTable columns={columns} data={datas} />
       </div>  
 
