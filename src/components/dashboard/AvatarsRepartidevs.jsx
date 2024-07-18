@@ -61,11 +61,11 @@ const repartidevs = [
 
 export default function AvatarRepartidevs() {
   return (
-    <section className="flex justify-between overflow-scroll hover:overflow-scroll">
+    <section className="container flex justify-between overflow-scroll hover:overflow-scroll">
       <div className="flex gap-3 py-7">
         {repartidevs.map((e) => (
           <div key={e.id} className="">
-            <div className="flex items-center bg-gray-50 py-4 px-2 rounded-xl">
+            <div className="flex items-center bg-slate-200 py-4 px-2 rounded-xl">
               <div>
                 <Avatar>
                   <AvatarImage

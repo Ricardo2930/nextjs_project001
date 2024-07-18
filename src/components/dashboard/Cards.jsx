@@ -12,7 +12,7 @@ export default function Cards() {
           <h3 className="text-green-500 font-bold">+10%</h3>
         </div>
 
-        <div className="bg-gray-100 text-gray-500 border-2 border-gray-500 rounded-xl p-5 grid gap-2">
+        <div className="bg-teal-100 text-teal-500 border-2 border-teal-500 rounded-xl p-5 grid gap-2">
          <ShoppingCart />
           <h3 className="text-2xl font-semibold">Orders</h3>
           <h3 className="text-7xl font-semibold">320</h3>
