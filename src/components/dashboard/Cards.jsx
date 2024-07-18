@@ -5,28 +5,28 @@ export default function Cards() {
   return (
     <section className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-7 text-center">
 
-      <div className="bg-blue-100 text-blue-500 border-2 border-blue-500 rounded-xl p-5 grid gap-2">
+      <div className="bg-blue-100 text-blue-500 border-2 border-blue-500 rounded-xl p-5 grid gap-2 hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer">
         <UserCheck className=""/>
           <h3 className="text-2xl font-semibold">Users</h3>
           <h3 className="text-7xl font-semibold">120</h3>
           <h3 className="text-green-500 font-bold">+10%</h3>
         </div>
 
-        <div className="bg-teal-100 text-teal-500 border-2 border-teal-500 rounded-xl p-5 grid gap-2">
+        <div className="bg-teal-100 text-teal-500 border-2 border-teal-500 rounded-xl p-5 grid gap-2 hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer">
          <ShoppingCart />
           <h3 className="text-2xl font-semibold">Orders</h3>
           <h3 className="text-7xl font-semibold">320</h3>
           <h3 className="text-green-500 font-bold">+10%</h3>
         </div>
 
-        <div className="bg-orange-100 text-orange-500 border-2 border-orange-500 rounded-xl p-5 grid gap-2">
+        <div className="bg-orange-100 text-orange-500 border-2 border-orange-500 rounded-xl p-5 grid gap-2 hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer">
         <Users />
           <h3 className="text-2xl font-semibold">Repartidevs</h3>
           <h3 className="text-7xl font-semibold">100</h3>
           <h3 className="text-green-500 font-bold">+10%</h3>
         </div>
 
-        <div className="bg-cyan-100 text-cyan-500 border-2 border-cyan-500 rounded-xl p-5 grid gap-2 text-center">
+        <div className="bg-cyan-100 text-cyan-500 border-2 border-cyan-500 rounded-xl p-5 grid gap-2 text-center hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer">
           <Hotel />
           <h3 className="text-xl font-semibold">Condominios</h3>
           <h3 className="text-5xl font-semibold">04</h3>
